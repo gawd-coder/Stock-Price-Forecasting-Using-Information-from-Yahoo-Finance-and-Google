@@ -6,14 +6,6 @@ TL;DR
 
 Through this paper, we first apply the conventional ARMA time series analysis on the historical weekly stock prices of TWTR and obtain forecasting results. Then we propose an algorithm to evaluate news/events related to TWTR stock using information from the sentiment values and the Google trend website. We then regress the changes in weekly stock prices on the values of the news at the beginning of the week. We aim to use this regression result to study the relationship between news and stock price changes and improve the performance of the conventional stock price forecasting process.
 
-Install
--------
-
-This project uses [backtrader](https://www.backtrader.com/). Go check them out if you don't have them locally installed.
-
-```source-shell
-$ pip install backtrader[plotting]
-```
 Datasets
 -------
 
